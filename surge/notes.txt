@@ -1,0 +1,25 @@
+
+==================
+deploy on surge
+==================
+
+scripts
+"deploy": "surge ./"
+or
+"deploy": "surge ./dist"
+
+
+package.json dependency
+
+"devDependencies": {
+    "surge": "^0.20.1"
+}
+
+command
+> npm run deploy
+
+
+===================
+
+https://surge.sh/help/getting-started-with-surge
+https://surge.sh/help/deploying-continuously-using-git-hooks

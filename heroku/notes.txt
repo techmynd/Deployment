@@ -1,0 +1,12 @@
+deploy on heroku
+heroku needs app.json and Procfile to run the app
+
+git push heroku master
+
+Procfile has command for dinos about which script to run via node
+
+==============================
+
+https://devcenter.heroku.com/articles/procfile
+
+
