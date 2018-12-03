@@ -10,3 +10,26 @@ Procfile has command for dinos about which script to run via node
 https://devcenter.heroku.com/articles/procfile
 
 
+======================================
+
+
+Other method
+============
+https://react-assignment-app-one.herokuapp.com/
+you need heroku cli b4 this
+===========================
+
+https://cli-auth.heroku.com/
+login to heroku cli and use following commands in same directory that you want to deploy
+
+> heroku create $APP_NAME --buildpack mars/create-react-app
+
+and below
+
+git add .
+git commit -m "Start with create-react-app"
+git push heroku master
+heroku open
+
+https://github.com/mars/create-react-app-buildpack#user-content-usage
+
