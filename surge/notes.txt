@@ -23,3 +23,16 @@ command
 
 https://surge.sh/help/getting-started-with-surge
 https://surge.sh/help/deploying-continuously-using-git-hooks
+
+====================
+
+
+to deploy reactjs app
+it should be installed on global level 
+
+> yarn run surge build
+
+it should accept build path to run from
+
+
+

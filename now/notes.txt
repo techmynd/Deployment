@@ -1,1 +1,3 @@
 https://zeit.co/now
+
+use desktop tool
